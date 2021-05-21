@@ -1,0 +1,105 @@
+body {
+	background-image: linear-gradient(rgba(115, 116, 128, 0.7), rgba(115, 116, 128, 0.7)), url(https://img.nhandan.com.vn/Files/Images/2020/12/28/IMG_7802-1609097292047.JPG);
+	background-position: center;
+	background-size: cover;
+}
+h3 {
+	font-weight: 900;
+	font-size: 25px;
+}
+#nav {
+	min-height: 20vh;
+	width: 100%;
+	padding-left: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo {
+	display: flex;
+}
+.title {
+	display: flex;
+	align-items: center;
+	color: white;
+}
+.title h1 {
+	font-size: 60px;
+	font-weight: 900;
+	font-family: Roboto Condensed;
+}
+img {
+	max-height: 131.39px;
+}
+.funclist1 {
+	padding: 1vh;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	margin-top: 2%;
+	display: flex;
+	justify-content: space-between;
+}
+.funclist2 {
+	padding: 1vh;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	margin-top: 2%;
+	display: flex;
+	justify-content: space-between;
+}
+.func {
+	flex-basis: 28%;
+	box-sizing: border-box;
+	min-height: 28vh;
+	padding-top: 20px;
+	background: rgba(85, 86, 94, 0.7);
+	transition: 0.5s;
+	padding-left: 40px ;
+	padding-right: 40px ;
+	box-shadow: 0 0 40px 10px gray;
+}
+.func p {
+	font-family: Quicksand;
+}
+.func h3 {
+	font-family: IBM Plex Sans;
+}
+.func:hover {
+	
+	flex-basis: 30%;
+	min-height: 32vh;
+}
+a {
+	color: white;
+}
+.log {
+	display: flex;
+	text-align: right;
+	margin-right: 2%;
+	padding: 0 20px;
+}
+.b1 {
+	margin-right: 30px;
+}
+button {
+	background: rgba(85, 86, 94, 0.7);
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;  
+    width: 100px;
+    font-family: Quicksand;
+    color: white;
+    font-weight: 900;
+}
+button:hover {
+	background: rgba(85, 86, 94, 1);
+}
+.compic {
+	height: 100px;
+	max-height: 100px;
+	width: 110px;
+	opacity: 1;
+}
